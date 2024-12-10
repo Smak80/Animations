@@ -2,6 +2,8 @@ package ru.smak.animation.graphics_objects;
 
 import java.awt.*;
 
-public interface PaintableObject {
-    public void paint(Graphics g);
+public interface AnimatableObject {
+    void paint(Graphics g);
+    void move(int dx, int dy);
+
 }
