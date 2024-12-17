@@ -4,6 +4,5 @@ import java.awt.*;
 
 public interface AnimatableObject {
     void paint(Graphics g);
-    void move(int dx, int dy);
-
+    void move();
 }
